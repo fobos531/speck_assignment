@@ -13,8 +13,8 @@
     margin: 5px;
 }
 
-.flex-item {
-   
+#flex-container .child * {
+    display: block;
 }
 
 .flex-item li {
