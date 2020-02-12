@@ -1,7 +1,7 @@
 let toolbox = [];
 
 const addNewTool = (tool) => {
-    toolbox.push(tool);
+    toolbox.unshift(tool);
 } 
 
 const renderList = () => {
